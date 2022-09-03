@@ -49,9 +49,9 @@ class Car : private Vehicle {
 
 int main() {
     Car car("Chevrolet", "Black", 2010, "Camaro", "9.1 cubic feet");
-    //car.Year = 2000;     // this will give error as Year is private
+    // car.Year = 2000;     // this will give error as Year is private
     // car.Model = "Accord";   // this will give error as Model is protected
   
     car.carDetails();
-    //car.printDetails();   // public functions of base class are inaccessible in main
+    // car.printDetails();   // public functions of base class are inaccessible in main
 }
