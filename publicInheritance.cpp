@@ -52,5 +52,5 @@ int main() {
     // car.Model = "Accord";   // this will give error as Model is protected
   
     car.carDetails();
-    car.printDetails();   // public functions of base class are inaccessible in main
+    car.printDetails();   // public functions of base class are accessible in main
 }
